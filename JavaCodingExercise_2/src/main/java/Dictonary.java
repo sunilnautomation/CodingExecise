@@ -54,7 +54,7 @@ public class Dictonary {
         }
     }
 
-    /* Main method to invoke the method to print the dictionary elements */
+    /* Main method to invoke the method to print the dictionary words and meanings */
     public static <LineIterator> void main(String[] args) throws IOException {
 
         //Building the relative path to Dictionary file
