@@ -1,7 +1,5 @@
-
 import java.io.Console;
 import java.util.Collections;
-import java.util.PriorityQueue;
 import java.util.Random;
 
 public class NthSmallestNumber {
