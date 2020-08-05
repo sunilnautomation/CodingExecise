@@ -1,0 +1,18 @@
+2020-08-05 03:05:48,882 [main] ERROR com.stepdefinitions.ServiceHooks - no such window: window was already closed
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'sunils-MacBook-Pro.local', ip: 'fe80:0:0:0:871:c5e9:1c6b:9139%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/kw/s6f1dlb11tl...}, goog:chromeOptions: {debuggerAddress: localhost:51333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bbb0035fd276a3e983bc401d9e3c5a
+2020-08-05 04:07:34,478 [main] ERROR com.stepdefinitions.ServiceHooks - no such window: window was already closed
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'sunils-MacBook-Pro.local', ip: 'fe80:0:0:0:871:c5e9:1c6b:9139%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/kw/s6f1dlb11tl...}, goog:chromeOptions: {debuggerAddress: localhost:52518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 908b57c1cdf01d7fa0d46b4aff0e09af
+2020-08-05 13:21:49,514 [main] ERROR com.stepdefinitions.ServiceHooks - java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:12414
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'sunils-MacBook-Pro.local', ip: 'fe80:0:0:0:871:c5e9:1c6b:9139%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '13.0.2'
+Driver info: driver.version: RemoteWebDriver

@@ -1,0 +1,19 @@
+<li class="list-item-3KjO5" xpath="1" style="">
+    <a href="https://www.weightwatchers.com/us/find-a-workshop/" target=""
+       da-category="visitor:studio-finder:US:studio-finder" da-action="nav_header_find-a-workshop"
+       da-label="Find a Workshop" icon="location"
+       class="button-1SuY1 menu-item__link-3iwwQ secondary-menu__link-3fFhs button--no-style-3FISX" title="">
+        <span class="menu-item__inner-wrapper-3Yd37 menu-item__inner-wrapper--with-icon-NJNvQ" data-e2e-name="find_a workshop">
+            <span class="menu-item__icon-wrapper-3uWcS">
+                <span class="icon__wrapper-26heY" data-e2e-name="icon"
+                      style="font-size:20px;width:20px;color:#000586;height:20px">
+                    <svg width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill-rule="evenodd"
+                              d="M256 512C149.333 353.165 96 237.355 96 164.571 96 73.681 167.634 0 256 0s160 73.681 160 164.571c0 72.784-53.333 188.594-160 347.429zm0-262c49.706 0 90-40.294 90-90s-40.294-90-90-90-90 40.294-90 90 40.294 90 90 90z"></path>
+                    </svg>
+                </span>
+            </span>
+            <span>Find a Workshop</span>
+        </span>
+    </a>
+</li>

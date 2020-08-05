@@ -1,0 +1,304 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4610481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24818494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WWStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Verify the Find workshop flow",
+        "description": "",
+        "id": "find-workshop-flow-validation;to-verify-the-find-workshop-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 90356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 241767396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "WW International\u0027s home page url is ::https://www.weightwatchers.com/us/"
+            ],
+            "result": {
+              "duration": 1107394774,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Home page of \"WW International\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WW International",
+                  "offset": 22
+                }
+              ],
+              "location": "WWStepDefinition.i_am_om_Home_page_of(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429412687,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I assert that loaded page title matches",
+            "match": {
+              "location": "WWStepDefinition.i_assert_that_loaded_page_title_matches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\"WW (Weight Watchers): Weight Loss \u0026 Wellness Help | WW USA\""
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717007603,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on \"Find a Workshop\" found on the right corner",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Workshop",
+                  "offset": 12
+                }
+              ],
+              "location": "WWStepDefinition.i_click_on_found_on_the_right_corner(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21114338,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I assert that loaded page title matches",
+            "match": {
+              "location": "WWStepDefinition.i_assert_that_loaded_page_title_matches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\"Find WW Studios \u0026 Meetings Near You | WW USA\""
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1934527259,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for the meetings at zip code",
+            "match": {
+              "location": "WWStepDefinition.i_search_for_the_meetings_at_zip_code(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "10011"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "The title of the first result and the distance :: ",
+              "WW Studio Flatiron",
+              "0.49 mi"
+            ],
+            "result": {
+              "duration": 546924086,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I print the title of the first result and the distance",
+            "match": {
+              "location": "WWStepDefinition.i_print_the_title_of_the_first_result_and_the_distance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206380204,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on first search result",
+            "match": {
+              "location": "WWStepDefinition.i_click_on_first_search_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1394645668,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I assert that loaded page title matches with first result",
+            "match": {
+              "location": "WWStepDefinition.i_assert_that_loaded_page_title_matches_with_first_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "TODAY (WED)’s hours of operation :: ",
+              "10:00 AM",
+              "12:15 PM",
+              "5:30 PM"
+            ],
+            "result": {
+              "duration": 764529168,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I print TODAY’s hours of operation",
+            "match": {
+              "location": "WWStepDefinition.i_print_TODAY_s_hours_of_operation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Number of meeting the each person(under the scheduled time) has on SUNDAY of the week :: ",
+              "JOHN B. 3",
+              "Number of meeting the each person(under the scheduled time) has on MONDAY of the week :: ",
+              "DANA F. 1",
+              "LISA S. 2",
+              "Number of meeting the each person(under the scheduled time) has on TUEDAY of the week :: ",
+              "ARANSAS S. 2",
+              "LAUREN C. 2",
+              "Number of meeting the each person(under the scheduled time) has on WEDDAY of the week :: ",
+              "CAMI B. 2",
+              "MARIA S. 1",
+              "Number of meeting the each person(under the scheduled time) has on THUDAY of the week :: ",
+              "DIANE M. 1",
+              "MINDI K. 2",
+              "STEVEN H. 2",
+              "Number of meeting the each person(under the scheduled time) has on FRIDAY of the week :: ",
+              "RICARDO M. 1",
+              "SILMARA R. 2",
+              "Number of meeting the each person(under the scheduled time) has on SATDAY of the week :: ",
+              "ROBERT B. 3"
+            ],
+            "result": {
+              "duration": 2430434597,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I print the number of meeting the each person for each day",
+            "match": {
+              "location": "WWStepDefinition.i_print_the_number_of_meeting_the_each_person_for_each_day(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SUN"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "MON"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "TUE"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "WED"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "THU"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "FRI"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "SAT"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@WebDriverExerciseTests"
+          }
+        ]
+      }
+    ],
+    "name": "Find workshop flow validation",
+    "description": "",
+    "id": "find-workshop-flow-validation",
+    "keyword": "Feature",
+    "uri": "WebDriverCodingExercise.feature"
+  }
+]
